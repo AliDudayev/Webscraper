@@ -337,7 +337,6 @@ namespace Selenium
                 // Ik gebruik 'Int32.Parse(chapterToChange)' omdat ik de 'chapterToChange'-string wil veranderen in een int.
                 // Deze methode retourneert de naam en het hoofdstuk in het formaat "Manga: mangaNaam Chapter: chapterNaam" als de manga op
                 // de website overeenkomt met wat ik in mijn 'manga.json' heb staan. Anders retourneert het een null.
-                // https://www.tutorialsteacher.com/regex/regex-in-csharp
                 result = Logger.ShowManga(title, Int32.Parse(chapterToChange));
 
                 // Als een manga in mijn 'manga.json' op de website staat met een nieuw hoofdstuk, is 'result' niet null en ga je naar deze 'if'.
